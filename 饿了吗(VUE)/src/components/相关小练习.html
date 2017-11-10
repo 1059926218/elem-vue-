@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		.food{
+			width: 1000px;
+			/*float: left;*/
+			display: flex;
+			/*用于设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。center:位于容器中心*/
+			/*flex-start
+			flex-end
+			center
+			space-between
+			space-around
+			initial*/
+			justify-content: center;
+			/*属性定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式*/
+			align-items: center;
+			/*column：  主轴与块轴方向作为默认的书写模式。即纵向从上往下排列（顶对齐）。*/
+			flex-direction: column;
+		}
+	</style>
+	<body>
+		<div class="food">
+			<img src="../assets/food/food3.png"/>
+			<span>美食你饿不饿</span>
+		</div>
+	</body>
+</html>
